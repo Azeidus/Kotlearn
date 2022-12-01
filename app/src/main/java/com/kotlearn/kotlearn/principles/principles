@@ -1,0 +1,36 @@
+KISS (Keep it simple, stupid.  or Keep it super simple )
+- write code as simply as possible
+- everything should be very simple
+- avoid unnecessary complexity
+- it should be readable and understandable for anyone
+
+DRY (Don't Repeat Yourself)
+- Using loops or function to perform repetitive task
+- promote reusability
+
+WET (We enjoy typing (you should avoid) )
+- Opposite of DRY principle
+
+YAGNI (You Aren't Gonna Need It)
+- always implement things when you actually need them, never when you just foresee that you need them.
+- you should not add functionality until deemed necessary.
+
+
+SOLID
+
+S : Single Responsibility Principle
+- every module or class should have only one responsibility (only changes to one part of the sogtware's specification
+should be able to affect the specification of the class)
+
+O : Open/Closed Principle
+- open for extension but closed for modification
+
+L : Liskov Substitution Principle
+- objects in a program should be replaceable with instances of their subtypes without altering the
+correctness of that program.
+
+I : Interface Segregation Principle
+-
+
+D : Dependency Inversion Principle
+-

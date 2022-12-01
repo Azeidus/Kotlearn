@@ -1,0 +1,25 @@
+KOTLIN COLLECTIONS
+
+Array: Mutable but has Fixed Size
+
+List
+- an ordered collection with access to elements by indices
+
+Set
+- collection of unique elements
+- a group of objects without repetitions
+
+Map
+- set of key-value pairs.
+- useful for storing logical connections between objects
+ex. an employee's ID and their position
+
+Immutable Collections: Read Only Operations
+Immutable List: listOf
+Immutable Map: mapOf
+Immutable Set: setOf
+
+Mutable Collections: Read and Write
+Mutable List: ArrayList, arrayListOf, mutableListOf
+Mutable Map: HashMap, hasMapOf, mutableMapOf
+Mutable Set: mutableSetOf, hashSetOf

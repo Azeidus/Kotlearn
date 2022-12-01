@@ -1,0 +1,17 @@
+Kotlin Methods / Functions
+
+Kotlin functions are declared using the fun keyword:
+
+fun initVariables() {
+
+}
+
+Functions are called using the standard approach:
+val result = double(2)
+
+fun double(x: Int): Int {
+    return 2 * x
+}
+
+Calling member functions uses dot notation:
+Stream().read()   >> creating instance of class Stream and call read()

@@ -1,0 +1,14 @@
+What is Object-Oriented Programming (OOP) ?
+- A programming paradigm that uses the concept of classes and objects.
+- it is used to structure application's code into simple reusable piece of codes
+that is called classes
+
+OOP Building Blocks
+- Class & Object
+- Property and Function
+
+Four Main Principles of Object-Oriented Programming (OOP)
+- Encapsulation
+- Inheritance
+- Abstraction (Exposing necessary details)
+- Polymorphism

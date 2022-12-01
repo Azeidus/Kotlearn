@@ -1,0 +1,29 @@
+ADDING VIEWBINDING TO YOUR PROJECT
+
+- Go to gradle(app module)
+- under kotlinOptions type
+
+ buildFeatures{
+        viewBinding = true
+    }
+
+
+----------------------------------------
+setting up view binding (example)
+
+ private lateinit var binding: ActivityMainBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+
+    }
+}
+
+
+---------------------------------------------
+layout name
+activity_main     ->      ActivityMainBinding

@@ -1,0 +1,39 @@
+Kotlin uses two different keywords to declare variables: val and var
+
+val - this is for a variable whose value never changes. (IMMUTABLE)
+var - this is for a variable whose value can change. (MUTABLE)
+
+Different Kotlin Data Types
+- Numbers
+- Characters
+- Booleans
+- Strings
+- Arrays
+
+INTEGER - store whole numbers, positive or negative, without decimals. (-2147483648 to 2147483647)
+var wholeNumber : Int = 10
+
+BYTE - this data type can store whole numbers from -128 to 127.
+val myNum: Byte = 100
+
+SHORT - Short data type can store whole numbers from -32768 to 32767:
+val myNum: Short = 5000
+
+LONG - data type can store whole numbers from -9223372036854775807 to 9223372036854775807
+val myNum: Long = 15000000000L
+
+The Float and Double data types can store fractional numbers
+var decimalNumber : Float = 10.00F
+var doubleNumber : Double = 10.23
+
+STRING - holds sequence of character
+var charSequence : String = "Llander"
+
+CHARACTER
+var oneChar : Char = 'L'
+
+BOOLEAN - holds the value "true" and "false"
+var bool : Boolean = true
+
+
+

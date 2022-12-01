@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Llander/Desktop/Android Projects 2022/Kotlearn/app/src/main/res/layout/activity_first_intent.xml" value="0.3625" />
+        <entry key="..\:/Users/Llander/Desktop/Android Projects 2022/Kotlearn/app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="..\:/Users/Llander/Desktop/Android Projects 2022/Kotlearn/app/src/main/res/layout/activity_notification.xml" value="0.375" />
+        <entry key="..\:/Users/Llander/Desktop/Android Projects 2022/Kotlearn/app/src/main/res/layout/activity_second_intent.xml" value="0.3484375" />
+        <entry key="..\:/Users/Llander/Desktop/Android Projects 2022/Kotlearn/app/src/main/res/layout/activity_shared_preference_demo.xml" value="0.3625" />
+        <entry key="..\:/Users/Llander/Desktop/Android Projects 2022/Kotlearn/app/src/main/res/layout/fragment_to_activity.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_abstraction_demo.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_card_view.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_collections_demo.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_coroutine_async.xml" value="0.1" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_coroutine_suspend_function.xml" value="0.3451086956521739" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_coroutines.xml" value="0.3451086956521739" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_coroutines_async.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_coroutines_run_blocking.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_demo.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_filtering_collection_demo.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_fragment_demo.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_layout.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_lifecycle.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_oopdemo.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_post_retro.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_recycler_view_demo.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_retro_main.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_second.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/activity_view_binding_demo.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/fragment_first.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/fragment_recycler_t_r_y.xml" value="0.3451086956521739" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/fragment_second.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/item_row.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/item_todo.xml" value="0.24791666666666667" />
+        <entry key="..\:/Users/Llander/Desktop/Kotlearn/app/src/main/res/layout/row_items.xml" value="0.3432971014492754" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

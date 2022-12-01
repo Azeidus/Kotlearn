@@ -1,0 +1,17 @@
+Fragments
+-
+
+
+FRAGMENT LIFECYCLE
+
+onAttach - Fragment attached to activity.
+onCreate - Fragment initialisation part.
+onCreateView - Fragment View initialisation part.
+onViewCreated - View is created.
+onStart - View becoming visible to user.
+onResume - View completely visible to user, they can interact.
+onPause - Partially visible, user can not interact
+onStop - Invisible, user cannot interact.
+onDestroyView - View destroyed.
+onDestroy - Fragment destroyed
+onDetach - Fragment removed from Activity

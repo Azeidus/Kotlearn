@@ -1,0 +1,13 @@
+@GET //if you want to read data from server
+@POST //if you want to create or add data to server
+@PUT  //if you want to update data to server
+@DELETE //if you want to delete data in server
+
+
+Response Status Code
+
+100 - 1XX -> Information
+200 - 2XX -> Success
+300 - 3XX -> Redirection
+400 - 4XX -> Client Error
+500 - 5XX -> Server Error

@@ -1,0 +1,16 @@
+Kotlin Classes
+
+Class - blueprint of an object
+Object - implementation of blueprint
+Constructors - Constructor is used to initialize the variables at the time of object creation.
+
+Constructors
+Primary Constructor - Lets the user pass in data to the Object as soon as the Object is created.
+                    - you can only have one primary constructor.
+
+Secondary Constructor - Lets the user pass in data to the Object but, it gets called after the primary constructor.
+                      - you can have many secondary constructors.
+
+Constructor Overloading
+- Allows the user to create many constructors.
+- Each constructor must have different parameters.

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layouts.LayoutActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearVertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Linear Layout with vertical orientation."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/me" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/me" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/me" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal_200"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearVertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="LinearLayout with horizontal orientation."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/me" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/me" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/me" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/material_dynamic_neutral40"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearHorizontal">
+
+
+        <TextView
+            android:id="@+id/tvRelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Relative  (toRightOf, toLeftOf, below, toEndOf, toStartOf) "
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/ivMe"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/tvRelative"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/me" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRelative"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ivMe"
+            android:text="BUTTON" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/teal_700"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout">
+
+        <TextView
+            android:id="@+id/tvConstraint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="This is Constraint Layout"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivMe1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/me"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvConstraint" />
+
+        <ImageView
+            android:id="@+id/ivMe2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/me"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivMe1" />
+
+        <ImageView
+            android:id="@+id/ivMe3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/me"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivMe2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
